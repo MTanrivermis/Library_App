@@ -6,6 +6,7 @@ import { useAuthContext } from "../../context/AuthContext";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const { user, setUser } = useAuthContext();
+
   const handleClose = () => {
     setToggle(false);
   };
