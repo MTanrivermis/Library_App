@@ -2,13 +2,10 @@ import React from "react";
 import { CardButton, CardContainer, CardHeader, CardMedia } from "./Card.style";
 import defaultImg from "../../assets/book.jpg";
 import { useNavigate } from "react-router-dom";
-import Detail from "../../pages/detail/Detail";
 
 const Card = ({ item }) => {
   const { volumeInfo } = item;
-
   const navigate = useNavigate();
-
   return (
     <CardContainer>
       <CardHeader>{volumeInfo?.title}</CardHeader>
@@ -17,7 +14,7 @@ const Card = ({ item }) => {
         alt={volumeInfo?.title}
         title={volumeInfo?.title}
       />
-      {}
+
       <CardButton
         onClick={() => navigate(`/detail/${item.id}`, { state: item })}
       >
