@@ -14,13 +14,13 @@ const About = () => {
     <AboutContainer>
       <ProfileImg src={profile} alt="anthony" />
       <InfoContainer>
-        <h2>Hi, I'm Anthony</h2>
+        <h2>Hi, I'm Mehmet</h2>
         <h3>
           I'm currently learning different full-stack development languages.
         </h3>
         <h4>
-          I already know JavaScript, ReactJS, Next.js, React Native, Django,
-          Node.js, MongoDB, SQL, Python, and AWS services.
+          I already know JavaScript, ReactJS, Next.js, TypeScript,
+          Node.js, MongoDB, SQL, Python.
         </h4>
         <h4>💬 You can ask me anything you want to know</h4>
         <IconContainer>
